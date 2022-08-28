@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda Questão</title>
+</head>
+<body>
+    <script>
+        
+        function bhaskara(ax,bx,cx){
+            
+            let a=ax;
+            let b=bx;
+            let c=cx;
+            let delta = b**2 - 4*a*c
+            let r1 = (-b+Math.sqrt(delta))/(2*a)
+            let r2 = (-b-Math.sqrt(delta))/(2*a)
+
+            if (delta<0) {
+                return "Delta é negativo"
+            } else {
+                console.log("As raizes são "+r1+" e "+r2)
+            }
+        }
+
+    </script>
+</body>
+</html>
